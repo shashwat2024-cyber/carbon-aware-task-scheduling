@@ -1,0 +1,234 @@
+INDEPENDENT PROCESS METRICS VERIFICATION
+================================================
+
+Normal FCFS | 100 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 0.49
+avg_tat: 2.49
+deadline_met: 100
+deadline_missed: 0
+deadline_success_pct: 100.0
+duration: 201
+energy_j: 10000.0
+carbon_g: 1.2694444444444426
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Carbon-aware FCFS | 100 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 32.9
+avg_tat: 34.9
+deadline_met: 69
+deadline_missed: 31
+deadline_success_pct: 69.0
+duration: 241
+energy_j: 10000.0
+carbon_g: 1.1527777777777757
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Normal FCFS | 200 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 0.495
+avg_tat: 2.495
+deadline_met: 200
+deadline_missed: 0
+deadline_success_pct: 100.0
+duration: 401
+energy_j: 20000.0
+carbon_g: 2.545833333333337
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Carbon-aware FCFS | 200 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 36.7
+avg_tat: 38.7
+deadline_met: 119
+deadline_missed: 81
+deadline_success_pct: 59.5
+duration: 441
+energy_j: 20000.0
+carbon_g: 2.4222222222222247
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Normal FCFS | 300 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 0.49666666666666665
+avg_tat: 2.4966666666666666
+deadline_met: 300
+deadline_missed: 0
+deadline_success_pct: 100.0
+duration: 601
+energy_j: 30000.0
+carbon_g: 3.8194444444444624
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Carbon-aware FCFS | 300 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 37.96666666666667
+avg_tat: 39.96666666666667
+deadline_met: 169
+deadline_missed: 131
+deadline_success_pct: 56.333333333333336
+duration: 641
+energy_j: 30000.0
+carbon_g: 3.698611111111127
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Normal FCFS | 400 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 0.4975
+avg_tat: 2.4975
+deadline_met: 400
+deadline_missed: 0
+deadline_success_pct: 100.0
+duration: 801
+energy_j: 40000.0
+carbon_g: 5.088888888888928
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Carbon-aware FCFS | 400 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 38.6
+avg_tat: 40.6
+deadline_met: 219
+deadline_missed: 181
+deadline_success_pct: 54.75
+duration: 841
+energy_j: 40000.0
+carbon_g: 4.972222222222257
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Normal FCFS | 500 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 0.498
+avg_tat: 2.498
+deadline_met: 500
+deadline_missed: 0
+deadline_success_pct: 100.0
+duration: 1001
+energy_j: 50000.0
+carbon_g: 6.365277777777838
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+Carbon-aware FCFS | 500 processes
+row_count: PASS
+waiting_formula: PASS
+turnaround_formula: PASS
+completion_formula: PASS
+valid_times: PASS
+carbon_trace_complete: PASS
+reported_energy_matches: PASS
+reported_carbon_matches: PASS
+avg_wait: 38.98
+avg_tat: 40.98
+deadline_met: 269
+deadline_missed: 231
+deadline_success_pct: 53.8
+duration: 1041
+energy_j: 50000.0
+carbon_g: 6.241666666666723
+missing_trace_seconds: 0
+bad_wait_rows: 0
+bad_tat_rows: 0
+bad_completion_rows: 0
+invalid_time_rows: 0
+
+OVERALL: ALL CHECKS PASSED

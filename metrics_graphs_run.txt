@@ -1,0 +1,124 @@
+
+Normal FCFS | 100 processes
+Status: PASS
+Average waiting time: 0.490000
+Average turnaround time: 2.490000
+Deadlines met/missed: 100/0
+Deadline success: 100.00%
+Observed duration: 201
+Energy from burst work: 10000.00 J
+Independent carbon: 1.269444444 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Carbon-aware FCFS | 100 processes
+Status: PASS
+Average waiting time: 32.900000
+Average turnaround time: 34.900000
+Deadlines met/missed: 69/31
+Deadline success: 69.00%
+Observed duration: 241
+Energy from burst work: 10000.00 J
+Independent carbon: 1.152777778 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Normal FCFS | 200 processes
+Status: PASS
+Average waiting time: 0.495000
+Average turnaround time: 2.495000
+Deadlines met/missed: 200/0
+Deadline success: 100.00%
+Observed duration: 401
+Energy from burst work: 20000.00 J
+Independent carbon: 2.545833333 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Carbon-aware FCFS | 200 processes
+Status: PASS
+Average waiting time: 36.700000
+Average turnaround time: 38.700000
+Deadlines met/missed: 119/81
+Deadline success: 59.50%
+Observed duration: 441
+Energy from burst work: 20000.00 J
+Independent carbon: 2.422222222 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Normal FCFS | 300 processes
+Status: PASS
+Average waiting time: 0.496667
+Average turnaround time: 2.496667
+Deadlines met/missed: 300/0
+Deadline success: 100.00%
+Observed duration: 601
+Energy from burst work: 30000.00 J
+Independent carbon: 3.819444444 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Carbon-aware FCFS | 300 processes
+Status: PASS
+Average waiting time: 37.966667
+Average turnaround time: 39.966667
+Deadlines met/missed: 169/131
+Deadline success: 56.33%
+Observed duration: 641
+Energy from burst work: 30000.00 J
+Independent carbon: 3.698611111 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Normal FCFS | 400 processes
+Status: PASS
+Average waiting time: 0.497500
+Average turnaround time: 2.497500
+Deadlines met/missed: 400/0
+Deadline success: 100.00%
+Observed duration: 801
+Energy from burst work: 40000.00 J
+Independent carbon: 5.088888889 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Carbon-aware FCFS | 400 processes
+Status: PASS
+Average waiting time: 38.600000
+Average turnaround time: 40.600000
+Deadlines met/missed: 219/181
+Deadline success: 54.75%
+Observed duration: 841
+Energy from burst work: 40000.00 J
+Independent carbon: 4.972222222 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Normal FCFS | 500 processes
+Status: PASS
+Average waiting time: 0.498000
+Average turnaround time: 2.498000
+Deadlines met/missed: 500/0
+Deadline success: 100.00%
+Observed duration: 1001
+Energy from burst work: 50000.00 J
+Independent carbon: 6.365277778 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+
+Carbon-aware FCFS | 500 processes
+Status: PASS
+Average waiting time: 38.980000
+Average turnaround time: 40.980000
+Deadlines met/missed: 269/231
+Deadline success: 53.80%
+Observed duration: 1041
+Energy from burst work: 50000.00 J
+Independent carbon: 6.241666667 gCO2
+Checks: {'row_count': True, 'waiting_formula': True, 'turnaround_formula': True, 'completion_formula': True, 'valid_times': True, 'carbon_trace_complete': True, 'reported_energy_matches': True, 'reported_carbon_matches': True}
+Graph saved: graphs/average_waiting_time_comparison.png
+Graph saved: graphs/average_turnaround_time_comparison.png
+Graph saved: graphs/deadline_misses_comparison.png
+Graph saved: graphs/deadline_success_rate_comparison.png
+Graph saved: graphs/execution_duration_comparison.png
+Graph saved: graphs/carbon_emissions_verified.png
+Graph saved: graphs/energy_verified.png
+
+================================================
+OVERALL: ALL CHECKS PASSED
+Report: logs/process_metrics_verification.txt
+CSV:    logs/process_metrics_verification.csv
+Graphs: graphs/
+================================================
