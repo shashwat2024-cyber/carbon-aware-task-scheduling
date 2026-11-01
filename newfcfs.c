@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-#define MAX 100
+#define MAX 500
 #define MAX_TIME 10000
 
 #define POWER 50.0
